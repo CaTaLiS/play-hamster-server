@@ -111,3 +111,10 @@ Caused by: org.hibernate.QueryException: No data type for node: org.hibernate.hq
 2017-06-15 20:50:45,337 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:postgresql://10.0.0.31/hamster
 2017-06-15 20:50:45,345 [INFO] from application in application-akka.actor.default-dispatcher-2 - ApplicationTimer demo: Starting application at 2017-06-15T18:50:45.345Z
 2017-06-15 20:50:45,753 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2017-06-15 21:07:35,534 [INFO] from application in application-akka.actor.default-dispatcher-6 - ApplicationTimer demo: Stopping application at 2017-06-15T19:07:35.534Z after 1010s.
+2017-06-15 21:07:35,535 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2017-06-15 21:07:35,701 [INFO] from application in application-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
+2017-06-15 21:07:35,709 [INFO] from play.api.db.HikariCPConnectionPool in application-akka.actor.default-dispatcher-6 - datasource [default] bound to JNDI as DefaultDS
+2017-06-15 21:07:35,716 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:postgresql://10.0.0.31/hamster
+2017-06-15 21:07:35,718 [INFO] from application in application-akka.actor.default-dispatcher-6 - ApplicationTimer demo: Starting application at 2017-06-15T19:07:35.718Z
+2017-06-15 21:07:36,158 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-6 - Application started (Dev)
